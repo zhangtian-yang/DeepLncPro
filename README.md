@@ -1,8 +1,8 @@
-DeepncPro
+DeepLncPro
 ====
 Description:
 ------------
-DeepncPro is able to identify the promoter of non-coding RNA in Human and Mouse.
+DeepLncPro is able to identify the promoter of Long non-coding RNA in Human and Mouse.
 
 Installation:
 -------------
@@ -39,6 +39,6 @@ python DeepLncPro.py -i example.txt -o output.html -s Human -ts 0.5
 ```
 ***
 Version number：V0.1.0 <br>
-Updated date：2022-05-09 <br>
+Updated date：2022-06-27 <br>
 Email: Tianyang.Zhang819@outlook.com
 ***
