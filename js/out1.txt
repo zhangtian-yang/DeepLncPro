@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+    <title>Drag-and-drop tables</title>
+    <link rel="stylesheet" href="js/output.css">
+</head>
+
+<body>
+    <div class="table-box">
+        <table>
+            <tbody>
+                <tr>
+                    <th title="Click to sort" onclick="sortTable(0)">Number</th>
+                    <th title="Click to sort" onclick="sortTable(1)">Name</th>
+                    <th title="Click to sort" onclick="sortTable(2)">Location</th>
+                    <th title="Click to sort" onclick="sortTable(3)">Probability</th>
+                    <th title="Click to sort" onclick="sortTable(4)">Prediction</th>
+                    <th title="Click to sort" onclick="sortTable(5)">Sequence</th>
+                </tr>
