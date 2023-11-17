@@ -43,7 +43,7 @@ Example:
 python DeepLncPro.py -i example.txt -o1 output_prediction.html -o2 output_motifcheck.html -s h -ts 0.5
 ```
 ***
-Version number：V0.2.0 <br>
+Version number：V1.2 <br>
 Updated date：2022-08-30 <br>
 Email: Tianyang.Zhang819@outlook.com
 ***
