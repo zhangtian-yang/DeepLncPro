@@ -1,12 +1,12 @@
 # DeepLncPro
 ====
 ## Description:
-------------
+
 DeepLncPro is able to identify the promoters of long non-coding RNA in Human and Mouse.
 This is an implementation of the published paper "DeepLncPro: an interpretable convolutional neural network model for identifying long non-coding RNA promoters."
--------------
+
 ## Installation:
--------------
+
 - <span  style="color: #5bdaed; font-weight: bold">python3.8</span>
 - pytorch==1.8.2+cpu
 - numpy==1.21.5
