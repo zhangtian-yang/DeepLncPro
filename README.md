@@ -1,5 +1,5 @@
 # DeepLncPro
-====
+
 ## Description:
 
 DeepLncPro is able to identify the promoters of long non-coding RNA in Human and Mouse.
@@ -18,7 +18,7 @@ pip install numpy==1.21.5
 pip install -r requirement.txt
 ``` 
 ## Optional arguments:
--------------------
+
 ```
   -h, --help            Show this help message and exit.
   --addresses ADDRESSES
@@ -39,7 +39,7 @@ pip install -r requirement.txt
                         -ts 0.5(Prediction result threshold)
 ```
 ## Example:
---------
+
 ```
 python DeepLncPro.py -i example.txt -o1 output_prediction.html -o2 output_motifcheck.html -s h -ts 0.5
 ```
