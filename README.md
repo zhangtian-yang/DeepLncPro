@@ -3,7 +3,6 @@ DeepLncPro
 Description:
 ------------
 DeepLncPro is able to identify the promoters of long non-coding RNA in Human and Mouse.
-More details are in DOI: 10.1093/bib/bbac447.
 -------------
 Installation:
 -------------
