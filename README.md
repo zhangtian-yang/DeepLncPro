@@ -2,7 +2,7 @@
 
 ## Description:
 
-DeepLncPro is able to identify the promoters of long non-coding RNA in Human and Mouse.
+DeepLncPro is able to identify the promoters of long non-coding RNA in human and mouse.
 This is an implementation of the published paper "DeepLncPro: an interpretable convolutional neural network model for identifying long non-coding RNA promoters."
 
 ## Installation:
