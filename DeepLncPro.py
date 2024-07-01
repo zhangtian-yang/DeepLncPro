@@ -366,8 +366,8 @@ def preprocess(inputFile, outputFile1, outputFile2, species, threshold):
     write_outputFile(out_list1, outputFile1, threshold)
     write_motif_check_results(out_list2, outputFile2)
     print(f'\nDone! Used {time.time()-start_time:.1f}s.')
-    print(f'- The promoter predictions for long non-coding RNA have been saved to '{outputFile1}'.')
-    print(f'- The binding motif predictions for transcription factors have been saved to '{outputFile2}'.')
+    print(f"- The promoter predictions for long non-coding RNA have been saved to '{outputFile1}'.")
+    print(f"- The binding motif predictions for transcription factors have been saved to '{outputFile2}'.")
 
 if __name__ == '__main__':
     args = parse_args()
