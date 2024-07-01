@@ -22,11 +22,11 @@ pip install -r requirements.txt
 ```
 -h, --help HELP
      Show help message and exit.
--i, --inputFile INPUTFILE
+-i, --input INPUT
      The input file is a complete Fasta format sequence. default=input.txt
--o1, --outputFile1 OUTPUTFILE1
+-o1, --output1 OUTPUT1
      Results of predicting lncRNA promoters are saved under results folder. default=output_prediction.html
--o2, --outputFile2 OUTPUTFILE2
+-o2, --output2 OUTPUT2
      Results of predicting motifs are saved under results folder. default=output_motifcheck.html 
 -s, --species SPECIES
      Choose the species of Human/Mouse. default=h
