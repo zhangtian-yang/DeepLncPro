@@ -7,12 +7,11 @@ This is an implementation of the published paper "DeepLncPro: an interpretable c
 
 ## Installation:
 
-- <span  style="color: #5bdaed; font-weight: bold">python3.8</span>
-- pytorch==1.8.2+cpu
-- numpy==1.21.5
+- <span  style="color: #5bdaed; font-weight: bold">python>=3.8</span>
+- pytorch>=1.8.2
+- numpy>=1.21.5
 ``` 
-pip install torch==1.8.2 torchvision==0.9.2 torchaudio===0.8.2 --extra-index-url https://download.pytorch.org/whl/lts/1.8/cpu
-pip install numpy==1.21.5
+pip install torch numpy
 ``` 
 ``` 
 pip install -r requirement.txt
@@ -43,6 +42,18 @@ pip install -r requirement.txt
 ```
 python DeepLncPro.py -i example.txt -o1 output_prediction.html -o2 output_motifcheck.html -s h -ts 0.5
 ```
+
+## Acknowledgements
+
+DeepLncPro uses and/or references the following separate libraries and packages (ordered alphabetically):
+
+- [Pytorch](https://pytorch.org/)
+- [NumPy](https://numpy.org/)
+- [deepRAM](https://github.com/MedChaabane/deepRAM)
+- [Tomtom](https://meme-suite.org/meme/tools/tomtom)
+  
+Thanks for all their contributors and maintainers!
+
 ***
 Version number：V1.2 <br>
 Updated date：2022-08-30 <br>
