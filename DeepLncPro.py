@@ -17,7 +17,7 @@ import numpy as np
 import sys
 import torch.nn as nn
 import torch.nn.functional as F
-import datetime
+import time
 
 warnings.filterwarnings("ignore")
 
@@ -360,11 +360,12 @@ def parse_args():
 
 def preprocess(inputFile, outputFile1, outputFile2, species, threshold):
     '''Predicting lncRNA promoters and writing output files.'''
-    print(datetime.datetime.now())
+    start_time=time.time()
+    print('Starting !')
     out_list1, out_list2 = prediction_process(inputFile, species)
     write_outputFile(out_list1, outputFile1, threshold)
     write_motif_check_results(out_list2, outputFile2)
-    print(datetime.datetime.now())
+    print(f'Done! Used {time.time()-start_time:.1f}s.')
 
 
 if __name__ == '__main__':
