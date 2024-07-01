@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 # -*- coding:utf-8-*-
-# author: TianyangZhang time:2022/8/30 QQ:980557945 e-mail:Tianyang.Zhang819@outlook.com
+# author: Tianyang Zhang time:2022/8/30 e-mail:Tianyang.Zhang819@outlook.com
 # ----------------------------------------------------------------------------
 '''
 This is the main program of DeepLncPro. Using this program you can identify lncRNA promoters
 and predict possible transcription factor binding motifs in lncRNA promoters.
 Required modules to be installed:
-pytorch==1.8.2+cpu
-numpy==1.21.5
+pytorch>=1.8.2
+numpy>=1.21.5
  '''
 # ----------------------------------------------------------------------------
 import argparse
@@ -369,4 +369,4 @@ def preprocess(inputFile, outputFile1, outputFile2, species, threshold):
 
 if __name__ == '__main__':
     args = parse_args()
-    preprocess(args.inputFile, args.outputFile1, args.outputFile2, args.species, float(args.threshold))
+    preprocess(args.input, args.output1, args.output2, args.species, float(args.threshold))
