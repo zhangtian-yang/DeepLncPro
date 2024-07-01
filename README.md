@@ -30,9 +30,9 @@ python DeepLncPro.py -i example.txt -o1 output_prediction.html -o2 output_motifc
 -i, --input INPUT
      The input file is a complete Fasta format sequence. default=input.txt
 -o1, --output1 OUTPUT1
-     Results of predicting lncRNA promoters are saved under results folder. default=output_prediction.html
+     Results of predicting lncRNA promoters. default=output_prediction.html
 -o2, --output2 OUTPUT2
-     Results of predicting motifs are saved under results folder. default=output_motifcheck.html 
+     Results of predicting motifs. default=output_motifcheck.html 
 -s, --species SPECIES
      Choose the species of Human/Mouse. default=h
 -ts, --threshold THRESHOLD
