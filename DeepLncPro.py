@@ -347,9 +347,9 @@ def parse_args():
     parser.add_argument('-i', '--input',type=str, default="input.txt",
                         help='The input file is a complete Fasta format sequence. default=input.txt')
     parser.add_argument('-o1', '--output1', type=str, default="output_prediction.html",
-                        help='Results of predicting lncRNA promoters are saved under results folder. default=output_prediction.html')
+                        help='Results of predicting lncRNA promoters. default=output_prediction.html')
     parser.add_argument('-o2', '--output2', type=str, default="output_motifcheck.html",
-                        help='Results of predicting motifs are saved under results folder. default=output_motifcheck.html')
+                        help='Results of predicting motifs. default=output_motifcheck.html')
     parser.add_argument('-s', '--species', type=str, default="h",
                         help='Choose the species of Human/Mouse. default=h')
     parser.add_argument('-ts', '--threshold', type=float, default=0.5,
