@@ -344,16 +344,16 @@ def parse_args():
     description = "DeepLncPro is able to identify the promoter of non-coding RNA in Human and Mouse.\n" \
                   "Example: python DeepLncPro.py -i example.txt -o output.html -s Human -ts 0.5"
     parser = argparse.ArgumentParser(description=description)
-    parser.add_argument('-i', '--inputFile',
-                        help='-i example.txt (The input file is a complete Fasta format sequence.)')
-    parser.add_argument('-o1', '--outputFile1',
-                        help='-o1 output_prediction.html (Results of predicting lncRNA promoters are saved under results folder.)')
-    parser.add_argument('-o2', '--outputFile2',
-                        help='-o2 output_motifcheck.html (Results of predicting motifs are saved under results folder.')
-    parser.add_argument('-s', '--species',
-                        help='-s h/m (Choose Human/Mouse from two species to use.)')
-    parser.add_argument('-ts', '--threshold',
-                        help='-ts 0.5(Prediction result threshold)')
+    parser.add_argument('-i', '--input',type=str, default="input.txt",
+                        help='The input file is a complete Fasta format sequence. default=input.txt')
+    parser.add_argument('-o1', '--output1', type=str, default="output_prediction.html",
+                        help='Results of predicting lncRNA promoters are saved under results folder. default=output_prediction.html')
+    parser.add_argument('-o2', '--output2', type=str, default="output_motifcheck.html",
+                        help='Results of predicting motifs are saved under results folder. default=output_motifcheck.html')
+    parser.add_argument('-s', '--species', type=str, default="h",
+                        help='Choose the species of Human/Mouse. default=h')
+    parser.add_argument('-ts', '--threshold', type=float, default=0.5,
+                        help='Threshold for classification based on predicted scores. default=0.5')
     args = parser.parse_args()
     return args
 
