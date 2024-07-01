@@ -5,7 +5,7 @@
 DeepLncPro is able to identify the promoters of long non-coding RNA in human and mouse.
 This is an implementation of the published paper "DeepLncPro: an interpretable convolutional neural network model for identifying long non-coding RNA promoters."
 
-## Installation:
+## Installation
 
 - <span  style="color: #5bdaed; font-weight: bold">[Python](https://www.python.org/)>=3.8</span>
 - [Pytorch](https://pytorch.org/)>=1.8.2
@@ -14,8 +14,15 @@ This is an implementation of the published paper "DeepLncPro: an interpretable c
 git clone https://github.com/zhangtian-yang/DeepLncPro.git
 cd DeepLncPro
 pip install -r requirements.txt
-``` 
-## Optional arguments:
+```
+
+## Example
+
+```
+python DeepLncPro.py -i example.txt -o1 output_prediction.html -o2 output_motifcheck.html -s h -ts 0.5
+```
+
+## Optional arguments
 
 ```
 -h, --help HELP
@@ -30,11 +37,6 @@ pip install -r requirements.txt
      Choose the species of Human/Mouse. default=h
 -ts, --threshold THRESHOLD
      Threshold for classification based on predicted scores. default=0.5
-```
-## Example:
-
-```
-python DeepLncPro.py -i example.txt -o1 output_prediction.html -o2 output_motifcheck.html -s h -ts 0.5
 ```
 
 ## Acknowledgements
