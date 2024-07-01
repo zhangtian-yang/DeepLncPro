@@ -23,16 +23,15 @@ pip install -r requirement.txt
   --addresses ADDRESSES
                         Tianyang.Zhang819@outlook.com
   -i INPUTFILE, --inputFile INPUTFILE
-                        -i input.txt (The input file is a complete Fasta
-                        format sequence.)
+                        -i input.txt (The input file is a complete Fasta format sequence.)
   -o1 OUTPUTFILE1, --outputFile1 OUTPUTFILE1
-                        -o1 output_prediction.html (Results of predicting 
-                        lncRNA promoters are saved under results folder.)
+                        -o1 output_prediction.html (Results of predicting lncRNA promoters
+                            are saved under results folder.)
   -o2 OUTPUTFILE2, --outputFile2 OUTPUTFILE2
-                        -o2 output_motifcheck.html (Results of predicting 
-                        motifs are saved under results folder.)
+                        -o2 output_motifcheck.html (Results of predicting motifs are saved
+                            under results folder.)
   -s SPECIES, --species SPECIES
-                        -s Human/Mouse (Choose species to.)
+                        -s Human/Mouse (Choose the species.)
   -ts THRESHOLD, --threshold THRESHOLD  
                         -ts 0.5(Threshold for classification based on predicted scores.)
 ```
