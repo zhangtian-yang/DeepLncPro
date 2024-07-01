@@ -10,11 +10,9 @@ This is an implementation of the published paper "DeepLncPro: an interpretable c
 - <span  style="color: #5bdaed; font-weight: bold">[Python](https://www.python.org/)>=3.8</span>
 - [Pytorch](https://pytorch.org/)>=1.8.2
 - [NumPy](https://numpy.org/)>=1.21.5
-``` 
-pip install torch numpy
 ```
-or
-``` 
+git clone https://github.com/zhangtian-yang/DeepLncPro.git
+cd DeepLncPro
 pip install -r requirements.txt
 ``` 
 ## Optional arguments:
