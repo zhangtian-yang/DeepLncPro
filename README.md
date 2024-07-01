@@ -32,10 +32,9 @@ pip install -r requirement.txt
                         -o2 output_motifcheck.html (Results of predicting 
                         motifs are saved under results folder.)
   -s SPECIES, --species SPECIES
-                        -s Human/Mouse (Choose one from two species to
-                        use.)
+                        -s Human/Mouse (Choose species to.)
   -ts THRESHOLD, --threshold THRESHOLD  
-                        -ts 0.5(Prediction result threshold)
+                        -ts 0.5(Threshold for classification based on predicted scores.)
 ```
 ## Example:
 
@@ -47,15 +46,15 @@ python DeepLncPro.py -i example.txt -o1 output_prediction.html -o2 output_motifc
 
 DeepLncPro uses and/or references the following separate libraries and packages (ordered alphabetically):
 
-- [Pytorch](https://pytorch.org/)
-- [NumPy](https://numpy.org/)
 - [deepRAM](https://github.com/MedChaabane/deepRAM)
+- [NumPy](https://numpy.org/)
+- [Pytorch](https://pytorch.org/)
 - [Tomtom](https://meme-suite.org/meme/tools/tomtom)
   
 Thanks for all their contributors and maintainers!
 
 ***
-Version number：V1.2 <br>
+Version number：v1.2 <br>
 Updated date：2022-08-30 <br>
 Email: Tianyang.Zhang819@outlook.com
 ***
