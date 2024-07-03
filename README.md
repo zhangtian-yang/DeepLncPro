@@ -3,7 +3,7 @@
 **Our [article](https://academic.oup.com/bib/article/23/6/bbac447/6754194) is now published in *Briefings in Bioinformatics*.**
 
 DeepLncPro is able to identify the promoters of long non-coding RNA in human and mouse.
-This is an implementation of the published paper(DOI:[10.1093/bib/bbac447](https://doi.org/10.1093/bib/bbac447)).
+This is an implementation of the published paper (DOI: [10.1093/bib/bbac447](https://doi.org/10.1093/bib/bbac447)).
 
 ## Installation
 
