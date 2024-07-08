@@ -2,8 +2,9 @@
 
 **Our [article](https://academic.oup.com/bib/article/23/6/bbac447/6754194) is now published in *Briefings in Bioinformatics*.**
 
-DeepLncPro is able to identify the promoters of long non-coding RNA in human and mouse.
-This is an implementation of the published paper (DOI: [10.1093/bib/bbac447](https://doi.org/10.1093/bib/bbac447)).
+This is an implementation of the published paper (DOI: [10.1093/bib/bbac447](https://doi.org/10.1093/bib/bbac447)). In this work, we propose a convolutional neural network based model, called DeepLncPro, to identify lncRNA promoters in human and mouse. Comparative results demonstrated that DeepLncPro was superior to both state-of-the-art machine learning methods and existing models for identifying lncRNA promoters.
+
+![DeepLncPro overview](js/overview.jpeg)
 
 ## Installation
 
